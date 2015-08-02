@@ -1,0 +1,237 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+ body{
+  background: #f1f1f1;
+ }
+ .main-container-wrapper{
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 30px;
+ }
+ .main-container{
+  min-height: 480px;
+ }
+a:hover, a:focus{
+  text-decoration: none;
+}
+
+/* admin menu */
+#admin-menu-wrapper {
+  font-size: 13px !important; /*increase font size*/
+}
+
+/* site header */
+#top-navigation-wrapper{
+	padding-top: 5px;
+  margin-bottom: 0;
+}
+#logo-col{
+	width: 11.666667%;
+}
+.logo{
+  margin-top: 14px;
+}
+#nav-header-col{
+	width: 88.333333%;
+}
+#top-navigation-wrapper > .container .navbar-brand {
+  font-size: 25px;
+  margin-left: 0;
+  padding-bottom: 10px;
+}
+#slogan{
+  clear: both;
+  margin-left: 15px;
+  max-width:300px;
+}
+#slogan .lead{
+  margin: 0;
+  padding: 0 0 12px;
+  color: #efefef;
+  font-size: 16px;
+}
+
+/* site menu */
+#navigation-2{
+	padding: 0;
+  margin-top: 12px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #E4E4E0; /* ligthen link color */
+  font-size: 14px;
+  padding: 10px 11px;
+}
+.dropdown-menu>li>a{
+	font-size: 13px;
+}
+
+/* site footer */
+#footer_wrapper{
+	margin-top: 30px;
+	padding: 35px 0 25px;
+	background: #f1f1f1;
+}
+
+/* tables */
+.table>thead>tr>th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+
+/* calendar */
+.view .date-nav-wrapper .date-prev {
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  background: transparent;
+  float: none;
+  padding: 5px 0;
+  position: absolute;
+  right: 90px;
+  left: auto;
+  text-align: right;
+  top: 0px;
+  width: auto;
+  z-index: 1;
+  font-size: 12px;
+}
+.view .date-nav-wrapper .date-next{
+  background: transparent;	
+}
+
+/* front page */
+#front-opps .well{
+  background: #3498db !important;
+}
+#front-opps .well a{
+  color: #fff !important;
+}
+#front-opps-wrapper{
+  padding-top: 40px;
+  margin-left: 15px;
+}
+#front-intro{
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+#front-page-mva{
+  padding-top: 45px;
+}
+#slider1_container .item{
+  font-size: 25px;
+}
+
+#slider1_container h1{
+  margin: 15px 0 0;
+  line-height: normal;
+  font-size: 32px;
+}
+#slider1_container a{
+  font-size: 32px;
+  line-height: normal;
+}
+#front-page-mva,
+#front-intro{
+  font-size: 18px;
+}
+
+/* Bootstrap panels and Panels module */
+.panel h2{
+  margin: 0;
+  font-size: 22.5px;
+}
+
+/* jobs table */
+.view-id-job_postings .views-field-title{
+  width: 16%
+}
+.view-id-job_postings .views-field-field-hiring-organization{
+  width: 18%;
+}
+.view-id-job_postings .views-field-created{
+  width: 10%
+}
+.view-id-job_postings .views-field-field-salary{
+  width: 10%;
+}
+.view-id-job_postings .views-field-field-job-description{
+  width: 36%;
+}
+.field-name-field-other-organization .field-label{
+  display: none;
+}
+
+/* Add/Edit Content */
+.tabs--primary{
+  margin-bottom: 25px;
+}
+#edit-body{
+  margin-top: 20px;
+}
+.form-item-field-event-location-und-0-country{
+  display:none;
+}
+
+/* login form */
+#user-login{
+  max-width: 550px;
+}
+
+@media (max-width: 1200px) {
+  .navbar>.container .navbar-brand{
+    height: auto;
+    margin-left: 5px;
+  }
+  #slogan{
+    margin-left: 20px;
+  }
+  #navigation-2{
+    margin-top: 0;
+  }
+}
+@media (max-width: 992px) {
+  #top-navigation-wrapper .container{
+    width: 100%;
+  }
+}
+@media (max-width: 830px) {
+  .logo img{
+    width: 100%;
+    min-width: 92px;
+  }
+}
+@media (max-width: 767px) {
+  #nav-header-col{
+    width: 76%;
+    float: left;
+  }
+  #top-navigation-wrapper.navbar-default .navbar-toggle{
+    position: absolute;
+    right: -69px;
+    top: -96px;
+    z-index: 2000;
+  }
+  #top-navigation-wrapper > .container .navbar-brand{
+    font-size: 21px;
+  }
+  .logo img{
+    min-width: 79px;
+  }
+  #navigation-2{
+    width: 100%;
+  }
+  #navigation-2 .navbar-nav{
+    margin: 10px 2px;
+  }
+}
+@media (max-width: 767px) {
+
+}
