@@ -11,7 +11,7 @@
 ?>
 <div id="slider1_container" class="container-fluid jumbotron">
   <!-- Slides Container -->
-  <div class="container">
+  <div class="container-fluid">
 	  <div id="spotlight-carousel" class="owl-carousel owl-theme">
 	    <?php foreach ($rows as $id => $row): ?>
 	      <div class="item"><?php print $row; ?></div>

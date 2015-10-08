@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation" id="top-navigation-wrapper">
+<nav class="navbar navbar-default navbar-static-top" role="navigation" id="top-navigation-wrapper">
   <div class="container">
     <div class="navbar-header container">
       <div class="row">

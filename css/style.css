@@ -8,13 +8,30 @@
  .main-container-wrapper{
   background: #fff;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
  }
  .main-container{
   min-height: 480px;
  }
+a {
+  color: #68A0B9;
+  text-decoration: none;
+}
 a:hover, a:focus{
   text-decoration: none;
+  color: #39A0A9;
+}
+
+/* Bootstrap overrides */
+.alert-warning .close,
+.alert-warning .close:focus {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+/* base layout */
+h1.page-header {
+  margin-top: 36px;
 }
 
 /* admin menu */
@@ -26,6 +43,7 @@ a:hover, a:focus{
 #top-navigation-wrapper{
 	padding-top: 5px;
   margin-bottom: 0;
+  background: #476584;
 }
 #logo-col{
 	width: 11.666667%;
@@ -40,6 +58,7 @@ a:hover, a:focus{
   font-size: 25px;
   margin-left: 0;
   padding-bottom: 10px;
+  color: #FAD42E;
 }
 #slogan{
   clear: both;
@@ -67,11 +86,19 @@ a:hover, a:focus{
 	font-size: 13px;
 }
 
+/* front page highlight section - used for rotating carousel */
+#highlight-wrapper {
+  background: #ecf0f1;
+}
+
 /* site footer */
 #footer_wrapper{
-	margin-top: 30px;
-	padding: 35px 0 25px;
-	background: #f1f1f1;
+	margin-top: 0;
+	padding: 55px 0;
+	background: #f3f3f3;
+}
+.front #footer_wrapper {
+  background: #fff;
 }
 
 /* tables */
@@ -108,15 +135,47 @@ a:hover, a:focus{
 }
 
 /* front page */
+.front .main-container-wrapper{
+  padding-bottom: 30px;
+}
+.front .jumbotron {
+  padding-top: 33px;
+  padding-bottom: 11px;
+  margin-bottom: 0;
+}
+.owl-theme .owl-controls {
+  margin-top: 26px;
+}
+.owl-carousel .owl-wrapper-outer {
+  margin-bottom: 20px;
+}
+.front #main-container-wrapper{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#front-opps{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 #front-opps .well{
   background: #3498db !important;
 }
 #front-opps .well a{
   color: #fff !important;
+  font-size: 20px;
+}
+#front-opps .well .col-md-10 a{
+  display: block;
+  margin-left: 15px;
 }
 #front-opps-wrapper{
-  padding-top: 40px;
+  padding-top: 7px;
   margin-left: 15px;
+}
+#front-opps h2.pane-title {
+  font-size: 26px;
+  margin: 31px 0 18px 18px;
+  text-align: center;
 }
 #front-intro{
   padding-top: 45px;
@@ -127,6 +186,7 @@ a:hover, a:focus{
 }
 #slider1_container .item{
   font-size: 25px;
+  text-align: center;
 }
 
 #slider1_container h1{
@@ -137,10 +197,53 @@ a:hover, a:focus{
 #slider1_container a{
   font-size: 32px;
   line-height: normal;
+  color: #3498DB;
 }
 #front-page-mva,
 #front-intro{
   font-size: 18px;
+}
+#subfeatured-wrapper {
+  background: #EBEEED;
+}
+#block-block-6{
+  margin: 20px 0;
+  padding: 20px 0
+}
+#facebook-widget-holder h2.pane-title {
+  font-size: 26px;
+  margin-top: 29px;
+  text-align: center;
+  margin-bottom: 26px;
+}
+#facebook-widget-holder .pane-content{
+  text-align: center;
+}
+
+/* articles feed on home page */
+.pane-article-feed {
+  padding-top: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.pane-article-feed h3.pane-title {
+  text-align: center;
+  margin-bottom: 26px;
+}
+.pane-article-feed .panel-title{
+  padding-top: 10px;
+}
+.pane-article-feed .views-field-created{
+  text-align: right;
+  font-style: italic;
+  color: #666;
+}
+.pane-article-feed .view-footer{
+  padding-top: 20px;
+}
+.pane-article-feed .view-footer a{
+  display: inline-block;
+  margin-left: 5px;
 }
 
 /* Bootstrap panels and Panels module */
@@ -185,6 +288,22 @@ a:hover, a:focus{
   max-width: 550px;
 }
 
+/* basic pages */
+#right-sidebar-content{
+  margin-bottom: 35px;
+}
+
+/* group pages */
+.node-type-group .pane-node-body {
+  max-width: 700px;
+  margin: 20px 0 30px;
+}
+#group-upcoming-events {
+  margin-right: 30px;
+}
+#group-recent-events {
+  margin-top: 30px;
+}
 @media (max-width: 1200px) {
   .navbar>.container .navbar-brand{
     height: auto;
